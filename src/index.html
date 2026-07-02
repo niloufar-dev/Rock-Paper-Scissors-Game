@@ -21,6 +21,153 @@
 
     <div class="absolute w-72 h-72 bg-violet-500/20 blur-[140px] rounded-full top-1/2 left-1/2 -translate-x-1/2"></div>
 </div>
+<div class="w-[460px]  rounded-[35px] 
+bg-white/10 backdrop-blur-3xl 
+border border-white/10 shadow-[0_20px_80px_rgba(0,0,0,.55)] py-4 px-8 overflow-hidden m-4 md:m-0">
+<div class="text-center">
+
+<div class="mx-auto w-15 h-15 rounded-full bg-gradient-to-r from-pink-500 to-violet-500 flex items-center justify-center text-3xl shadow-[0_0_35px_rgba(236,72,153,.7)]">
+🎮
+</div>
+
+<h1 class="text-white text-3xl font-black tracking-[8px] uppercase font-[Orbitron]">
+ Rock Paper Scissors
+</h1>
+
+<p class="text-gray-400 mt-2">
+
+Challenge the AI
+
+</p>
+
+</div>
+<div class="my-6 h-px bg-white/10"></div>
+<div class="flex justify-center gap-6 mb-0 ">
+<button onclick="playgame('rock')" class="rock-btn text-4xl p-4 rounded-2xl border border-white/15 hover:bg-gray-800
+hover:scale-110 transition duration-300 shadow-lg hover:shadow-[0_0_30px_rgba(50,60,80,.7)]">
+<img src="./image/icons8-hand-rock-64.png" alt="" class="w-[50px]">
+</button>
+
+<button  onclick="playgame('paper')"  class="paper-btn text-4xl p-4 rounded-2xl 
+ hover:bg-gray-800 border border-white/15
+hover:scale-110 transition duration-300 shadow-lg hover:shadow-[0_0_30px_rgba(50,60,80,.7)]">
+<img src="./image/icons8-hand-64.png" alt="" class="w-[50px]">
+</button>
+
+<button onclick="playgame('scissors')" class="scissors-btn text-4xl p-4 rounded-2xl border border-white/15
+ hover:bg-gray-800 
+hover:scale-110 transition duration-300 shadow-lg hover:shadow-[0_0_30px_rgba(50,60,80,.7)]">
+<img src="./image/icons8-hand-scissors-64.png" alt="" class="w-[50px]">
+</button>
+
+</div>
+<div class="flex justify-between items-center mt-6">
+
+<div class="text-center">
+
+<div class="text-3xl">
+
+👤
+
+</div>
+
+<p class="text-gray-300">
+
+YOU
+
+</p>
+
+<div class="user-choice text-4xl mt-3">
+
+❔
+
+</div>
+
+</div>
+
+<div>
+
+<div class="text-4xl font-black text-pink-500 animate-pulse">
+
+VS
+
+</div>
+
+</div>
+
+<div class="text-center">
+
+<div class="text-3xl">
+
+🤖
+
+</div>
+
+<p class="text-gray-300">
+
+AI
+
+</p>
+
+<div class="comp-choice text-4xl mt-3">
+
+❔
+
+</div>
+
+</div>
+
+</div>
+<p class="text-center text-lg font-semibold mb-4 text-emerald-300 mt-4">
+Result: <span id="result"  class="text-yellow-300">Waiting...</span>
+</p>
+<div class=" flex items-center justify-between gap-5 mt-3 px-5">
+
+<div class="rounded-2xl bg-white/5 py-2 px-9 text-center border
+border-white/10">
+
+<p class="text-gray-400">
+
+YOU
+
+</p>
+
+<h2 class="userscore text-5xl text-white font-medium">
+
+0
+
+</h2>
+
+</div>
+
+<div class="rounded-2xl bg-white/5 py-2 px-9  text-center border
+border-white/10">
+
+<p class="text-gray-400">
+
+AI
+
+</p>
+
+<h2 class="computerscore text-5xl text-white font-medium ">
+
+0
+
+</h2>
+
+</div>
+
+</div>
+<button onclick="resetgame()" class="reset-btn w-full py-3 rounded-xl
+  bg-gradient-to-r from-rose-500 to-pink-600
+  text-white font-semibold
+  hover:from-rose-400 hover:to-pink-500
+  hover:shadow-[0_0_25px_rgba(244,63,94,.6)]
+  hover:scale-105
+  transition-all duration-300 mt-6">
+  🔄 Reset Game
+</button>
+</div>
     
 </body>
 </html>
