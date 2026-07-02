@@ -168,6 +168,126 @@ AI
   🔄 Reset Game
 </button>
 </div>
-    
+
+<div id="win-modal"
+class="fixed inset-0 z-50 flex items-center justify-center
+bg-black/50 backdrop-blur-md
+scale-0
+transition-all duration-500 win-card">
+
+    <div
+    class="w-[380px]
+    rounded-3xl
+    bg-white/10
+    backdrop-blur-3xl
+    border border-white/20
+    shadow-[0_0_60px_rgba(34,197,94,.4)]
+    p-8
+    text-center
+    scale-75
+    transition-all duration-500
+    win-card">
+
+        <div class="text-7xl animate-bounce">
+            🏆
+        </div>
+
+        <h2 class="mt-5 text-4xl font-black text-green-400">
+            YOU WIN!
+        </h2>
+
+        <p class="text-gray-300 mt-3">
+            Congratulations 🎉
+        </p>
+
+        <div class="mt-6
+        rounded-2xl
+        bg-white/5
+        p-4">
+
+            <p class="text-gray-400">
+                Final Score
+            </p>
+
+            <h3 class="text-5xl text-white font-bold">
+                5
+            </h3>
+
+        </div>
+
+        <button
+        onclick="resetgame()"
+        class="mt-8
+        w-full
+        py-4
+        rounded-xl
+        bg-gradient-to-r
+        from-green-500
+        to-emerald-400
+        hover:scale-105
+        duration-300
+        text-white
+        font-bold">
+
+            🔄 Play Again
+
+        </button>
+
+    </div>
+
+</div>
+<div id="lose-modal"
+class="fixed inset-0 z-50 flex items-center justify-center
+bg-black/50 backdrop-blur-md
+scale-0
+transition-all duration-500 loose-card">
+
+    <div
+    class="w-[380px]
+    rounded-3xl
+    bg-white/10
+    backdrop-blur-3xl
+    border border-white/20
+    shadow-[0_0_60px_rgba(239,68,68,.4)]
+    p-8
+    text-center
+    scale-75
+    transition-all duration-500
+    ">
+
+        <div class="text-7xl animate-bounce">
+            😭
+        </div>
+
+        <h2 class="mt-5 text-4xl font-black text-red-400">
+            GAME OVER
+        </h2>
+
+        <p class="text-gray-300 mt-3">
+            Better luck next time!
+        </p>
+
+        <button
+        onclick="resetgame()"
+        class="mt-8
+        w-full
+        py-4
+        rounded-xl
+        bg-gradient-to-r
+        from-red-500
+        to-rose-500
+        hover:scale-105
+        duration-300
+        text-white
+        font-bold">
+
+            🔄 Try Again
+
+        </button>
+
+    </div>
+
+</div>
+    <script src="./app.js"></script>
 </body>
 </html>
