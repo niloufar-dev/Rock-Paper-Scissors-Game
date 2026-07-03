@@ -1,3 +1,4 @@
+
 # 🎮 Rock Paper Scissors Game
 
 A modern and interactive **Rock, Paper, Scissors** game built with **HTML**, **Tailwind CSS**, and **Vanilla JavaScript**.
@@ -9,6 +10,13 @@ A modern and interactive **Rock, Paper, Scissors** game built with **HTML**, **T
 
 ---
 
+## 📸 Preview
+
+<img width="1919" height="903" alt="Screenshot 2026-07-02 200609" src="https://github.com/user-attachments/assets/47a3c324-d64a-43b1-b81b-c0ce2c7c7f0a" />
+<img width="1894" height="895" alt="Screenshot 2026-07-03 184740" src="https://github.com/user-attachments/assets/fac8c0f5-c19c-48e1-9122-b4e57ed2cb03" />
+
+
+---
 ## ✨ Features
 
 - 🪨 Rock, 📄 Paper, ✂️ Scissors gameplay
@@ -39,12 +47,6 @@ A modern and interactive **Rock, Paper, Scissors** game built with **HTML**, **T
 
 ---
 
-## 📸 Preview
-
-<img width="1919" height="903" alt="Screenshot 2026-07-02 200609" src="https://github.com/user-attachments/assets/47a3c324-d64a-43b1-b81b-c0ce2c7c7f0a" />
-
-
----
 
 
 ## 👨‍💻 Author
